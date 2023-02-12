@@ -31,6 +31,10 @@ Changes to original Spleen:
  * `<` and `>` were much too big and round before.  Shrunk them and
    made the sharper.
 
+ * `}`, `)`, and `]` were shifted leftwise one pixel to better balance the
+   whitespace of enclosed text.  Unfortunately I couldn't do this for `>`
+   as it would make it assymetrical when used as the relational operator.
+
  * `?` was shunk to fit with uppercase letters.
 
  * `E`, `F`, and `L` had a curiously round appearence.  Sharped up and
@@ -48,4 +52,5 @@ Here's the before and after comparison:
 Fonts are notoriously subjective so I don't expect everyone to agree
 with all my changes.  One particularily thorny character I went back
 and forth on is the asterisk `*`.  It feels a bit overweight, but
-Creeps' version no longer feels like an asterisk.
+Creeps' version no longer feels like an asterisk.  Similar story for
+the percent `%`.
