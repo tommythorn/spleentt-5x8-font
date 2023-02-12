@@ -62,3 +62,6 @@ Snick and Frederic Cambus
 
 * Spleen: https://github.com/fcambus/spleen
 * Creep: https://github.com/romeovs/creep
+
+See also https://github.com/toitware/toit-font-clock for _even_ tinier
+fonts (I didn't even think that was possible).
