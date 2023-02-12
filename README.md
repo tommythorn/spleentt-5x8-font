@@ -54,3 +54,11 @@ with all my changes.  One particularily thorny character I went back
 and forth on is the asterisk `*`.  It feels a bit overweight, but
 Creeps' version no longer feels like an asterisk.  Similar story for
 the percent `%`.
+
+# Acknowledgments
+
+This wouldn't have been possible without the amazing work of Romeo Van
+Snick and Frederic Cambus
+
+* Spleen: https://github.com/fcambus/spleen
+* Creep: https://github.com/romeovs/creep
