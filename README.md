@@ -22,10 +22,10 @@ Changes to original Spleen:
 
  * `,` and `;` were shunk (again, more like Creep).
 
- * `/`, `|`, `\`, `[`, and `]` shrunk one pixel to fit with height of
-   uppercase letters.
-
- * `{` and `}` also shrunk which enabled it to look more curly.
+ * `?`, `/`, `|`, `\`, `(`, `{`, `[`, `]`, `}`, and `)` made a pixel
+   shorter to avoid overflowing into the margin (spacing is critical
+   to readability).  This further enabled `{` and `}` to look more
+   "curly".
 
  * `<` and `>` were much too big and round before.  Shrunk them and
    made the sharper.
@@ -34,8 +34,6 @@ Changes to original Spleen:
    whitespace of enclosed text.  Unfortunately I couldn't do this for `>`
    as it would make it assymetrical when used as the relational operator.
 
- * `?` was shunk to fit with uppercase letters.
-
  * `E`, `F`, and `L` had a curiously round appearence.  Sharped up and
    aligned the `F` fins with the `E`.
 
@@ -43,14 +41,21 @@ Changes to original Spleen:
 
  * Finally, the `~` overflowed needlessly.  Use a Creep inspired shape.
 
-Here's the before and after comparison:
+## Before and after
 
 ![spleen](images/spleen.png  "All ASCII characters in the original spleen font")
 ![spleentt](images/spleentt.png  "All ASCII characters in this (spleentt) font, with code snippets")
 
+## Space Violators
+
+ASCII overflowing vertically: `!`, `"`, `$`, `%`, `&`, `'`, `` ` ``,
+`b`, `d`, `f`, `h`, `k`, `l`, `t`
+
+ASCII overflowing horizontally: `#`, `&`, `+`, `T`, `Y`
+
 Fonts are notoriously subjective so I don't expect everyone to agree
-with all my changes.  One particularily thorny character I went back
-and forth on is the asterisk `*`.  It feels a bit overweight, but
+with all my compromises.  One particularily thorny character I went
+back and forth on is the asterisk `*`.  It feels a bit overweight, but
 Creeps' version no longer feels like an asterisk.  Similar story for
 the percent `%`.
 
