@@ -39,6 +39,9 @@ Changes to original Spleen:
 
  * The `^` felt overweight.  Shunk it.
 
+ * Reworked `i` to have the expected height and a more straight
+   appearence.
+
  * Finally, the `~` overflowed needlessly.  Use a Creep inspired shape.
 
 ## Before and after
@@ -49,7 +52,7 @@ Changes to original Spleen:
 ## Space Violators
 
 ASCII overflowing vertically: `!`, `"`, `$`, `%`, `&`, `'`, `` ` ``,
-`b`, `d`, `f`, `h`, `k`, `l`, `t`
+`b`, `d`, `f`, `h`, `i`, `k`, `l`, `t`
 
 ASCII overflowing horizontally: `#`, `&`, `+`, `T`, `Y`
 
