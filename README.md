@@ -34,8 +34,8 @@ Changes to original Spleen:
    whitespace of enclosed text.  Unfortunately I couldn't do this for `>`
    as it would make it assymetrical when used as the relational operator.
 
- * `E`, `F`, and `L` had a curiously round appearence.  Sharped up and
-   aligned the `F` fins with the `E`.
+ * `r`, `E`, `F`, and `L` had a curiously round appearence.  Sharped
+   up and aligned the `F` fins with the `E`.
 
  * The `^` felt overweight.  Shunk it.
 
