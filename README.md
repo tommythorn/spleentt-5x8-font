@@ -20,8 +20,7 @@ Changes to original Spleen:
 
  * `&` was changed to a share inspired more from Creep
 
- * `,` and `;` were shunk (again, more like Creep) and `:` was
-   adjusted accordingly.
+ * `,` and `;` were shunk (again, more like Creep).
 
  * `/`, `|`, `\`, `[`, and `]` shrunk one pixel to fit with height of
    uppercase letters.
