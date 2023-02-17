@@ -1,66 +1,35 @@
 # Spleentt
 
+![spleentt](images/spleentt.png  "All ASCII characters in this (spleentt) font, with code snippets")
+
 While considering a project with a 320 x 128 LCD, I needed the
 smallest possible readable font that would work here.  The best two
 candidates I found where Spleen (5x8) and Creep/Creep2 (5x9).  Each
 had their own strenghts and issues, so I decided to create a new font,
 mostly based on Spleen.
 
-One of the compromises all the 5 pixel wide font makes is occasionally
-spilling into the 5th column, breaking the horizontal spacing.  We'd
-want to minimize that.
+All fonts are compromises and the compromises become more severe as we
+reduce the available resolution.  The inherint tension between improve
+the visual appearence and respecting the inter-character spacing is
+core to all the changes made here.
 
-Changes to original Spleen:
+While stretching glyphs might make them prettier in isolation, once
+placed next to other glyphs, the lost whitespace makes for more
+difficult reading.  For this reason, almost all horizontal space
+violations were eliminated (`+` still remains).
 
- * The upper case `Y` looked exactly like lowercase `y`, changed to a
-   completely different shape that unfortunately spills into the 5th
-   column.
+There are many vertical violations, but as much as possible we leave
+the descentor (the bottom-most row) free, only using it for `g`, `j`,
+`p`, and `q`.  Notably, none of the parenthesis, brackets, braces
+descend there.
 
- * `$` changed shape and was slanted to stay in 4 columns.
 
- * `&` was changed to a share inspired more from Creep
+At this point most of the ASCII glyphs from the original Spleen font
+have been redesigned.
 
- * `,` and `;` were shunk (again, more like Creep).
-
- * `?`, `/`, `|`, `\`, `(`, `{`, `[`, `]`, `}`, and `)` made a pixel
-   shorter to avoid overflowing into the margin (spacing is critical
-   to readability).  This further enabled `{` and `}` to look more
-   "curly".
-
- * `<` and `>` were much too big and round before.  Shrunk them and
-   made the sharper.
-
- * `}`, `)`, and `]` were shifted leftwise one pixel to better balance the
-   whitespace of enclosed text.  Unfortunately I couldn't do this for `>`
-   as it would make it assymetrical when used as the relational operator.
-
- * `r`, `E`, `F`, and `L` had a curiously round appearence.  Sharped
-   up and aligned the `F` fins with the `E`.
-
- * The `^` felt overweight.  Shunk it.
-
- * Reworked `i` to have the expected height and a more straight
-   appearence.
-
- * Finally, the `~` overflowed needlessly.  Use a Creep inspired shape.
-
-## Before and after
+## Original
 
 ![spleen](images/spleen.png  "All ASCII characters in the original spleen font")
-![spleentt](images/spleentt.png  "All ASCII characters in this (spleentt) font, with code snippets")
-
-## Space Violators
-
-ASCII overflowing vertically: `!`, `"`, `$`, `%`, `&`, `'`, `` ` ``,
-`b`, `d`, `f`, `h`, `i`, `k`, `l`, `t`
-
-ASCII overflowing horizontally: `#`, `&`, `+`, `T`, `Y`
-
-Fonts are notoriously subjective so I don't expect everyone to agree
-with all my compromises.  One particularily thorny character I went
-back and forth on is the asterisk `*`.  It feels a bit overweight, but
-Creeps' version no longer feels like an asterisk.  Similar story for
-the percent `%`.
 
 # Acknowledgments
 
@@ -69,6 +38,5 @@ Snick and Frederic Cambus
 
 * Spleen: https://github.com/fcambus/spleen
 * Creep: https://github.com/romeovs/creep
-
-See also https://github.com/toitware/toit-font-clock for _even_ tinier
-fonts (I didn't even think that was possible).
+* The X11 fixed fonts
+* And _even_ tinier https://github.com/toitware/toit-font-clock
