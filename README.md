@@ -2,9 +2,9 @@
 
 ![spleentt](images/spleentt.png  "All ASCII characters in this (spleentt) font, with code snippets")
 
-While considering a project with a 320 x 128 LCD, I needed the
+While considering a project with a 320 × 128 LCD, I needed the
 smallest possible readable font that would work here.  The best two
-candidates I found where Spleen (5x8) and Creep/Creep2 (5x9).  Each
+candidates I found were Spleen (5×8) and Creep/Creep2 (5×9).  Each
 had their own strenghts and issues, so I decided to create a new font,
 mostly based on Spleen.
 
@@ -18,13 +18,12 @@ placed next to other glyphs, the lost whitespace makes for more
 difficult reading.  For this reason, almost all horizontal space
 violations were eliminated (`+` still remains).
 
-There are many vertical violations, but as much as possible we leave
-the descentor (the bottom-most row) free, only using it for `g`, `j`,
+There are only a few vertical violations as we leave
+the descentor (the bottom-most row) free, except for glyphs `g`, `j`,
 `p`, and `q`.  Notably, none of the parenthesis, brackets, braces
 descend there.
 
-
-At this point most of the ASCII glyphs from the original Spleen font
+At this point about half of the ASCII glyphs from the original Spleen font
 have been redesigned.
 
 ## Original
