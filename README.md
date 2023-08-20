@@ -9,7 +9,7 @@ had their own strenghts and issues, so I decided to create a new font,
 mostly based on Spleen.
 
 All fonts are compromises and the compromises become more severe as we
-reduce the available resolution.  The inherint tension between improve
+reduce the available resolution.  The inherent tension between improve
 the visual appearence and respecting the inter-character spacing is
 core to all the changes made here.
 
