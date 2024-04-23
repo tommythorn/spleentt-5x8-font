@@ -5,13 +5,13 @@
 While considering a project with a 320 × 128 LCD, I needed the
 smallest possible readable font that would work here.  The best two
 candidates I found were Spleen (5×8) and Creep/Creep2 (5×9).  Each
-had their own strenghts and issues, so I decided to create a new font,
+had their own strengths and issues, so I decided to create a new font,
 mostly based on Spleen.
 
 All fonts are compromises and the compromises become more severe as we
-reduce the available resolution.  The inherent tension between improve
-the visual appearence and respecting the inter-character spacing is
-core to all the changes made here.
+reduce the available resolution.  The inherent tension between
+improving the visual appearence and respecting the inter-character
+spacing is core to all the changes made here.
 
 While stretching glyphs might make them prettier in isolation, once
 placed next to other glyphs, the lost whitespace makes for more

@@ -4,7 +4,7 @@ FullName: Spleentt Medium
 FamilyName: Spleentt
 Weight: Medium
 Copyright: Copyright (c) 2018-2022, Frederic Cambus, 2023 Tommy Thorn
-UComments: "2023-2-15: Created with FontForge (http://fontforge.org)"
+UComments: "2024-4-21: Created with FontForge (http://fontforge.org)"
 Version: 001.000
 ItalicAngle: 0
 UnderlinePosition: -100
@@ -15,24 +15,17 @@ InvalidEm: 0
 LayerCount: 2
 Layer: 0 0 "Back" 1
 Layer: 1 0 "Fore" 0
-XUID: [1021 122 78172832 10800909]
-StyleMap: 0x0000
-FSType: 0
+XUID: [1021 122 78172832 2555269]
 OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
-CreationTime: 1676486739
-ModificationTime: 1676568913
-PfmFamily: 17
-TTFWeight: 500
-TTFWidth: 5
-LineGap: 90
-VLineGap: 0
+CreationTime: 1713744669
+ModificationTime: 1713744669
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
 OS2TypoDOffset: 1
-OS2TypoLinegap: 90
+OS2TypoLinegap: 0
 OS2WinAscent: 0
 OS2WinAOffset: 1
 OS2WinDescent: 0
@@ -42,19 +35,15 @@ HheadAOffset: 1
 HheadDescent: 0
 HheadDOffset: 1
 OS2Vendor: 'PfEd'
-MarkAttachClasses: 1
 DEI: 91125
 Encoding: UnicodeBmp
-Compacted: 1
 UnicodeInterp: none
 NameList: AGL For New Fonts
 DisplaySize: 8
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 0 16 8
+WinInfo: 16 16 8
 OnlyBitmaps: 1
-BeginPrivate: 0
-EndPrivate
 BeginChars: 65536 472
 
 StartChar: SPACE
@@ -62,8 +51,6 @@ Encoding: 32 32 0
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 1
 EndChar
 
 StartChar: EXCLAMATION
@@ -71,8 +58,6 @@ Encoding: 33 33 1
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 1
 EndChar
 
 StartChar: QUOTATION
@@ -80,8 +65,6 @@ Encoding: 34 34 2
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 1
 EndChar
 
 StartChar: NUMBER
@@ -89,8 +72,6 @@ Encoding: 35 35 3
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 1
 EndChar
 
 StartChar: DOLLAR
@@ -98,8 +79,6 @@ Encoding: 36 36 4
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 1
 EndChar
 
 StartChar: PERCENT
@@ -107,8 +86,6 @@ Encoding: 37 37 5
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 1
 EndChar
 
 StartChar: AMPERSAND
@@ -116,8 +93,6 @@ Encoding: 38 38 6
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 1
 EndChar
 
 StartChar: APOSTROPHE
@@ -125,8 +100,6 @@ Encoding: 39 39 7
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 1
 EndChar
 
 StartChar: LEFT
@@ -134,8 +107,6 @@ Encoding: 40 40 8
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: RIGHT
@@ -143,8 +114,6 @@ Encoding: 41 41 9
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: ASTERISK
@@ -152,8 +121,6 @@ Encoding: 42 42 10
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 1
 EndChar
 
 StartChar: PLUS
@@ -161,8 +128,6 @@ Encoding: 43 43 11
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 1
 EndChar
 
 StartChar: COMMA
@@ -170,8 +135,6 @@ Encoding: 44 44 12
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 1
 EndChar
 
 StartChar: HYPHEN-MINUS
@@ -179,8 +142,6 @@ Encoding: 45 45 13
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 513
 EndChar
 
 StartChar: FULL
@@ -188,8 +149,6 @@ Encoding: 46 46 14
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 1
 EndChar
 
 StartChar: SOLIDUS
@@ -197,8 +156,6 @@ Encoding: 47 47 15
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 1
 EndChar
 
 StartChar: DIGIT
@@ -206,8 +163,6 @@ Encoding: 48 48 16
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: DIGIT
@@ -215,8 +170,6 @@ Encoding: 49 49 17
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: DIGIT
@@ -224,8 +177,6 @@ Encoding: 50 50 18
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: DIGIT
@@ -233,8 +184,6 @@ Encoding: 51 51 19
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: DIGIT
@@ -242,8 +191,6 @@ Encoding: 52 52 20
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: DIGIT
@@ -251,8 +198,6 @@ Encoding: 53 53 21
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: DIGIT
@@ -260,8 +205,6 @@ Encoding: 54 54 22
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: DIGIT
@@ -269,8 +212,6 @@ Encoding: 55 55 23
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: DIGIT
@@ -278,8 +219,6 @@ Encoding: 56 56 24
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: DIGIT
@@ -287,8 +226,6 @@ Encoding: 57 57 25
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: COLON
@@ -296,8 +233,6 @@ Encoding: 58 58 26
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 1
 EndChar
 
 StartChar: SEMICOLON
@@ -305,8 +240,6 @@ Encoding: 59 59 27
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 1
 EndChar
 
 StartChar: LESS-THAN
@@ -314,8 +247,6 @@ Encoding: 60 60 28
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 513
 EndChar
 
 StartChar: EQUALS
@@ -323,8 +254,6 @@ Encoding: 61 61 29
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 1
 EndChar
 
 StartChar: GREATER-THAN
@@ -332,8 +261,6 @@ Encoding: 62 62 30
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 513
 EndChar
 
 StartChar: QUESTION
@@ -341,8 +268,6 @@ Encoding: 63 63 31
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 1
 EndChar
 
 StartChar: COMMERCIAL
@@ -350,8 +275,6 @@ Encoding: 64 64 32
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 1
 EndChar
 
 StartChar: LATIN
@@ -359,8 +282,6 @@ Encoding: 65 65 33
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: LATIN
@@ -368,8 +289,6 @@ Encoding: 66 66 34
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: LATIN
@@ -377,8 +296,6 @@ Encoding: 67 67 35
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: LATIN
@@ -386,8 +303,6 @@ Encoding: 68 68 36
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: LATIN
@@ -395,8 +310,6 @@ Encoding: 69 69 37
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: LATIN
@@ -404,8 +317,6 @@ Encoding: 70 70 38
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: LATIN
@@ -413,8 +324,6 @@ Encoding: 71 71 39
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: LATIN
@@ -422,8 +331,6 @@ Encoding: 72 72 40
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: LATIN
@@ -431,8 +338,6 @@ Encoding: 73 73 41
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: LATIN
@@ -440,8 +345,6 @@ Encoding: 74 74 42
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: LATIN
@@ -449,8 +352,6 @@ Encoding: 75 75 43
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: LATIN
@@ -458,8 +359,6 @@ Encoding: 76 76 44
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: LATIN
@@ -467,8 +366,6 @@ Encoding: 77 77 45
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: LATIN
@@ -476,8 +373,6 @@ Encoding: 78 78 46
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: LATIN
@@ -485,8 +380,6 @@ Encoding: 79 79 47
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: LATIN
@@ -494,8 +387,6 @@ Encoding: 80 80 48
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: LATIN
@@ -503,8 +394,6 @@ Encoding: 81 81 49
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: LATIN
@@ -512,8 +401,6 @@ Encoding: 82 82 50
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: LATIN
@@ -521,8 +408,6 @@ Encoding: 83 83 51
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: LATIN
@@ -530,8 +415,6 @@ Encoding: 84 84 52
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: LATIN
@@ -539,8 +422,6 @@ Encoding: 85 85 53
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: LATIN
@@ -548,8 +429,6 @@ Encoding: 86 86 54
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: LATIN
@@ -557,8 +436,6 @@ Encoding: 87 87 55
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: LATIN
@@ -566,8 +443,6 @@ Encoding: 88 88 56
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: LATIN
@@ -575,8 +450,6 @@ Encoding: 89 89 57
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: LATIN
@@ -584,8 +457,6 @@ Encoding: 90 90 58
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: LEFT
@@ -593,8 +464,6 @@ Encoding: 91 91 59
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: REVERSE
@@ -602,8 +471,6 @@ Encoding: 92 92 60
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 1
 EndChar
 
 StartChar: RIGHT
@@ -611,8 +478,6 @@ Encoding: 93 93 61
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: CIRCUMFLEX
@@ -620,8 +485,6 @@ Encoding: 94 94 62
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 1
 EndChar
 
 StartChar: LOW
@@ -629,8 +492,6 @@ Encoding: 95 95 63
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 1
 EndChar
 
 StartChar: GRAVE
@@ -638,8 +499,6 @@ Encoding: 96 96 64
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 1
 EndChar
 
 StartChar: LATIN
@@ -647,8 +506,6 @@ Encoding: 97 97 65
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: LATIN
@@ -656,8 +513,6 @@ Encoding: 98 98 66
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: LATIN
@@ -665,8 +520,6 @@ Encoding: 99 99 67
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: LATIN
@@ -674,8 +527,6 @@ Encoding: 100 100 68
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: LATIN
@@ -683,8 +534,6 @@ Encoding: 101 101 69
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: LATIN
@@ -692,8 +541,6 @@ Encoding: 102 102 70
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: LATIN
@@ -701,8 +548,6 @@ Encoding: 103 103 71
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: LATIN
@@ -710,8 +555,6 @@ Encoding: 104 104 72
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: LATIN
@@ -719,8 +562,6 @@ Encoding: 105 105 73
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: LATIN
@@ -728,8 +569,6 @@ Encoding: 106 106 74
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: LATIN
@@ -737,8 +576,6 @@ Encoding: 107 107 75
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: LATIN
@@ -746,8 +583,6 @@ Encoding: 108 108 76
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: LATIN
@@ -755,8 +590,6 @@ Encoding: 109 109 77
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: LATIN
@@ -764,8 +597,6 @@ Encoding: 110 110 78
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: LATIN
@@ -773,8 +604,6 @@ Encoding: 111 111 79
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: LATIN
@@ -782,8 +611,6 @@ Encoding: 112 112 80
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: LATIN
@@ -791,8 +618,6 @@ Encoding: 113 113 81
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: LATIN
@@ -800,8 +625,6 @@ Encoding: 114 114 82
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: LATIN
@@ -809,8 +632,6 @@ Encoding: 115 115 83
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: LATIN
@@ -818,8 +639,6 @@ Encoding: 116 116 84
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: LATIN
@@ -827,8 +646,6 @@ Encoding: 117 117 85
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: LATIN
@@ -836,8 +653,6 @@ Encoding: 118 118 86
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: LATIN
@@ -845,8 +660,6 @@ Encoding: 119 119 87
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: LATIN
@@ -854,8 +667,6 @@ Encoding: 120 120 88
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: LATIN
@@ -863,8 +674,6 @@ Encoding: 121 121 89
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: LATIN
@@ -872,8 +681,6 @@ Encoding: 122 122 90
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: LEFT
@@ -881,8 +688,6 @@ Encoding: 123 123 91
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: VERTICAL
@@ -890,8 +695,6 @@ Encoding: 124 124 92
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 1
 EndChar
 
 StartChar: RIGHT
@@ -899,8 +702,6 @@ Encoding: 125 125 93
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: TILDE
@@ -908,17 +709,13 @@ Encoding: 126 126 94
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 1
 EndChar
 
 StartChar: control
-Encoding: 127 127 95
+Encoding: 8963 8963 95
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 1
 EndChar
 
 StartChar: NO-BREAK
@@ -926,8 +723,6 @@ Encoding: 160 160 96
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 513
 EndChar
 
 StartChar: INVERTED
@@ -935,8 +730,6 @@ Encoding: 161 161 97
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: CENT
@@ -944,8 +737,6 @@ Encoding: 162 162 98
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 1
 EndChar
 
 StartChar: POUND
@@ -953,8 +744,6 @@ Encoding: 163 163 99
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 1
 EndChar
 
 StartChar: CURRENCY
@@ -962,8 +751,6 @@ Encoding: 164 164 100
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 1
 EndChar
 
 StartChar: YEN
@@ -971,8 +758,6 @@ Encoding: 165 165 101
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 1
 EndChar
 
 StartChar: BROKEN
@@ -980,8 +765,6 @@ Encoding: 166 166 102
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 1
 EndChar
 
 StartChar: SECTION
@@ -989,8 +772,6 @@ Encoding: 167 167 103
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 1
 EndChar
 
 StartChar: DIAERESIS
@@ -998,8 +779,6 @@ Encoding: 168 168 104
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 1
 EndChar
 
 StartChar: COPYRIGHT
@@ -1007,8 +786,6 @@ Encoding: 169 169 105
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 1
 EndChar
 
 StartChar: FEMININE
@@ -1016,8 +793,6 @@ Encoding: 170 170 106
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 1
 EndChar
 
 StartChar: LEFT-POINTING
@@ -1025,8 +800,6 @@ Encoding: 171 171 107
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 513
 EndChar
 
 StartChar: NOT
@@ -1034,8 +807,6 @@ Encoding: 172 172 108
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 1
 EndChar
 
 StartChar: SOFT
@@ -1043,8 +814,6 @@ Encoding: 173 173 109
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 1
 EndChar
 
 StartChar: REGISTERED
@@ -1052,8 +821,6 @@ Encoding: 174 174 110
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 1
 EndChar
 
 StartChar: MACRON
@@ -1061,8 +828,6 @@ Encoding: 175 175 111
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 1
 EndChar
 
 StartChar: DEGREE
@@ -1070,8 +835,6 @@ Encoding: 176 176 112
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 1
 EndChar
 
 StartChar: PLUS-MINUS
@@ -1079,8 +842,6 @@ Encoding: 177 177 113
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 513
 EndChar
 
 StartChar: SUPERSCRIPT
@@ -1088,8 +849,6 @@ Encoding: 178 178 114
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: SUPERSCRIPT
@@ -1097,8 +856,6 @@ Encoding: 179 179 115
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: ACUTE
@@ -1106,8 +863,6 @@ Encoding: 180 180 116
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 1
 EndChar
 
 StartChar: MICRO
@@ -1115,8 +870,6 @@ Encoding: 181 181 117
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 1
 EndChar
 
 StartChar: PILCROW
@@ -1124,8 +877,6 @@ Encoding: 182 182 118
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 1
 EndChar
 
 StartChar: MIDDLE
@@ -1133,8 +884,6 @@ Encoding: 183 183 119
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 1
 EndChar
 
 StartChar: CEDILLA
@@ -1142,8 +891,6 @@ Encoding: 184 184 120
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 1
 EndChar
 
 StartChar: SUPERSCRIPT
@@ -1151,8 +898,6 @@ Encoding: 185 185 121
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: MASCULINE
@@ -1160,8 +905,6 @@ Encoding: 186 186 122
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 1
 EndChar
 
 StartChar: RIGHT-POINTING
@@ -1169,8 +912,6 @@ Encoding: 187 187 123
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 513
 EndChar
 
 StartChar: VULGAR
@@ -1178,8 +919,6 @@ Encoding: 188 188 124
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: VULGAR
@@ -1187,8 +926,6 @@ Encoding: 189 189 125
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: VULGAR
@@ -1196,8 +933,6 @@ Encoding: 190 190 126
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: INVERTED
@@ -1205,8 +940,6 @@ Encoding: 191 191 127
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: LATIN
@@ -1214,8 +947,6 @@ Encoding: 192 192 128
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: LATIN
@@ -1223,8 +954,6 @@ Encoding: 193 193 129
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: LATIN
@@ -1232,8 +961,6 @@ Encoding: 194 194 130
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: LATIN
@@ -1241,8 +968,6 @@ Encoding: 195 195 131
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: LATIN
@@ -1250,8 +975,6 @@ Encoding: 196 196 132
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: LATIN
@@ -1259,8 +982,6 @@ Encoding: 197 197 133
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: LATIN
@@ -1268,8 +989,6 @@ Encoding: 198 198 134
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: LATIN
@@ -1277,8 +996,6 @@ Encoding: 199 199 135
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: LATIN
@@ -1286,8 +1003,6 @@ Encoding: 200 200 136
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: LATIN
@@ -1295,8 +1010,6 @@ Encoding: 201 201 137
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: LATIN
@@ -1304,8 +1017,6 @@ Encoding: 202 202 138
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: LATIN
@@ -1313,8 +1024,6 @@ Encoding: 203 203 139
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: LATIN
@@ -1322,8 +1031,6 @@ Encoding: 204 204 140
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: LATIN
@@ -1331,8 +1038,6 @@ Encoding: 205 205 141
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: LATIN
@@ -1340,8 +1045,6 @@ Encoding: 206 206 142
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: LATIN
@@ -1349,8 +1052,6 @@ Encoding: 207 207 143
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: LATIN
@@ -1358,8 +1059,6 @@ Encoding: 208 208 144
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: LATIN
@@ -1367,8 +1066,6 @@ Encoding: 209 209 145
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: LATIN
@@ -1376,8 +1073,6 @@ Encoding: 210 210 146
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: LATIN
@@ -1385,8 +1080,6 @@ Encoding: 211 211 147
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: LATIN
@@ -1394,8 +1087,6 @@ Encoding: 212 212 148
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: LATIN
@@ -1403,8 +1094,6 @@ Encoding: 213 213 149
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: LATIN
@@ -1412,8 +1101,6 @@ Encoding: 214 214 150
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: MULTIPLICATION
@@ -1421,8 +1108,6 @@ Encoding: 215 215 151
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 1
 EndChar
 
 StartChar: LATIN
@@ -1430,8 +1115,6 @@ Encoding: 216 216 152
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: LATIN
@@ -1439,8 +1122,6 @@ Encoding: 217 217 153
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: LATIN
@@ -1448,8 +1129,6 @@ Encoding: 218 218 154
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: LATIN
@@ -1457,8 +1136,6 @@ Encoding: 219 219 155
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: LATIN
@@ -1466,8 +1143,6 @@ Encoding: 220 220 156
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: LATIN
@@ -1475,8 +1150,6 @@ Encoding: 221 221 157
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: LATIN
@@ -1484,8 +1157,6 @@ Encoding: 222 222 158
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: LATIN
@@ -1493,8 +1164,6 @@ Encoding: 223 223 159
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: LATIN
@@ -1502,8 +1171,6 @@ Encoding: 224 224 160
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: LATIN
@@ -1511,8 +1178,6 @@ Encoding: 225 225 161
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: LATIN
@@ -1520,8 +1185,6 @@ Encoding: 226 226 162
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: LATIN
@@ -1529,8 +1192,6 @@ Encoding: 227 227 163
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: LATIN
@@ -1538,8 +1199,6 @@ Encoding: 228 228 164
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: LATIN
@@ -1547,8 +1206,6 @@ Encoding: 229 229 165
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: LATIN
@@ -1556,8 +1213,6 @@ Encoding: 230 230 166
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: LATIN
@@ -1565,8 +1220,6 @@ Encoding: 231 231 167
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: LATIN
@@ -1574,8 +1227,6 @@ Encoding: 232 232 168
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: LATIN
@@ -1583,8 +1234,6 @@ Encoding: 233 233 169
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: LATIN
@@ -1592,8 +1241,6 @@ Encoding: 234 234 170
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: LATIN
@@ -1601,8 +1248,6 @@ Encoding: 235 235 171
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: LATIN
@@ -1610,8 +1255,6 @@ Encoding: 236 236 172
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: LATIN
@@ -1619,8 +1262,6 @@ Encoding: 237 237 173
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: LATIN
@@ -1628,8 +1269,6 @@ Encoding: 238 238 174
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: LATIN
@@ -1637,8 +1276,6 @@ Encoding: 239 239 175
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: LATIN
@@ -1646,8 +1283,6 @@ Encoding: 240 240 176
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: LATIN
@@ -1655,8 +1290,6 @@ Encoding: 241 241 177
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: LATIN
@@ -1664,8 +1297,6 @@ Encoding: 242 242 178
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: LATIN
@@ -1673,8 +1304,6 @@ Encoding: 243 243 179
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: LATIN
@@ -1682,8 +1311,6 @@ Encoding: 244 244 180
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: LATIN
@@ -1691,8 +1318,6 @@ Encoding: 245 245 181
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: LATIN
@@ -1700,8 +1325,6 @@ Encoding: 246 246 182
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: DIVISION
@@ -1709,8 +1332,6 @@ Encoding: 247 247 183
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 1
 EndChar
 
 StartChar: LATIN
@@ -1718,8 +1339,6 @@ Encoding: 248 248 184
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: LATIN
@@ -1727,8 +1346,6 @@ Encoding: 249 249 185
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: LATIN
@@ -1736,8 +1353,6 @@ Encoding: 250 250 186
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: LATIN
@@ -1745,8 +1360,6 @@ Encoding: 251 251 187
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: LATIN
@@ -1754,8 +1367,6 @@ Encoding: 252 252 188
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: LATIN
@@ -1763,8 +1374,6 @@ Encoding: 253 253 189
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: LATIN
@@ -1772,8 +1381,6 @@ Encoding: 254 254 190
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: LATIN
@@ -1781,8 +1388,6 @@ Encoding: 255 255 191
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BOX
@@ -1790,8 +1395,6 @@ Encoding: 9472 9472 192
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BOX
@@ -1799,8 +1402,6 @@ Encoding: 9474 9474 193
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BOX
@@ -1808,8 +1409,6 @@ Encoding: 9484 9484 194
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BOX
@@ -1817,8 +1416,6 @@ Encoding: 9488 9488 195
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BOX
@@ -1826,8 +1423,6 @@ Encoding: 9492 9492 196
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BOX
@@ -1835,8 +1430,6 @@ Encoding: 9496 9496 197
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BOX
@@ -1844,8 +1437,6 @@ Encoding: 9500 9500 198
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BOX
@@ -1853,8 +1444,6 @@ Encoding: 9508 9508 199
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BOX
@@ -1862,8 +1451,6 @@ Encoding: 9516 9516 200
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BOX
@@ -1871,8 +1458,6 @@ Encoding: 9524 9524 201
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BOX
@@ -1880,8 +1465,6 @@ Encoding: 9532 9532 202
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BLACK
@@ -1889,8 +1472,6 @@ Encoding: 9670 9670 203
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: LOZENGE
@@ -1898,8 +1479,6 @@ Encoding: 9674 9674 204
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 1
 EndChar
 
 StartChar: BLACK
@@ -1907,8 +1486,6 @@ Encoding: 9698 9698 205
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BLACK
@@ -1916,8 +1493,6 @@ Encoding: 9699 9699 206
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BLACK
@@ -1925,8 +1500,6 @@ Encoding: 9700 9700 207
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BLACK
@@ -1934,8 +1507,6 @@ Encoding: 9701 9701 208
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BLACK
@@ -1943,8 +1514,6 @@ Encoding: 9829 9829 209
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BLACK
@@ -1952,8 +1521,6 @@ Encoding: 9830 9830 210
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -1961,8 +1528,6 @@ Encoding: 10240 10240 211
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -1970,8 +1535,6 @@ Encoding: 10241 10241 212
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -1979,8 +1542,6 @@ Encoding: 10242 10242 213
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -1988,8 +1549,6 @@ Encoding: 10243 10243 214
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -1997,8 +1556,6 @@ Encoding: 10244 10244 215
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -2006,8 +1563,6 @@ Encoding: 10245 10245 216
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -2015,8 +1570,6 @@ Encoding: 10246 10246 217
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -2024,8 +1577,6 @@ Encoding: 10247 10247 218
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -2033,8 +1584,6 @@ Encoding: 10248 10248 219
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -2042,8 +1591,6 @@ Encoding: 10249 10249 220
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -2051,8 +1598,6 @@ Encoding: 10250 10250 221
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -2060,8 +1605,6 @@ Encoding: 10251 10251 222
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -2069,8 +1612,6 @@ Encoding: 10252 10252 223
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -2078,8 +1619,6 @@ Encoding: 10253 10253 224
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -2087,8 +1626,6 @@ Encoding: 10254 10254 225
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -2096,8 +1633,6 @@ Encoding: 10255 10255 226
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -2105,8 +1640,6 @@ Encoding: 10256 10256 227
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -2114,8 +1647,6 @@ Encoding: 10257 10257 228
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -2123,8 +1654,6 @@ Encoding: 10258 10258 229
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -2132,8 +1661,6 @@ Encoding: 10259 10259 230
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -2141,8 +1668,6 @@ Encoding: 10260 10260 231
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -2150,8 +1675,6 @@ Encoding: 10261 10261 232
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -2159,8 +1682,6 @@ Encoding: 10262 10262 233
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -2168,8 +1689,6 @@ Encoding: 10263 10263 234
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -2177,8 +1696,6 @@ Encoding: 10264 10264 235
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -2186,8 +1703,6 @@ Encoding: 10265 10265 236
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -2195,8 +1710,6 @@ Encoding: 10266 10266 237
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -2204,8 +1717,6 @@ Encoding: 10267 10267 238
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -2213,8 +1724,6 @@ Encoding: 10268 10268 239
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -2222,8 +1731,6 @@ Encoding: 10269 10269 240
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -2231,8 +1738,6 @@ Encoding: 10270 10270 241
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -2240,8 +1745,6 @@ Encoding: 10271 10271 242
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -2249,8 +1752,6 @@ Encoding: 10272 10272 243
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -2258,8 +1759,6 @@ Encoding: 10273 10273 244
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -2267,8 +1766,6 @@ Encoding: 10274 10274 245
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -2276,8 +1773,6 @@ Encoding: 10275 10275 246
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -2285,8 +1780,6 @@ Encoding: 10276 10276 247
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -2294,8 +1787,6 @@ Encoding: 10277 10277 248
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -2303,8 +1794,6 @@ Encoding: 10278 10278 249
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -2312,8 +1801,6 @@ Encoding: 10279 10279 250
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -2321,8 +1808,6 @@ Encoding: 10280 10280 251
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -2330,8 +1815,6 @@ Encoding: 10281 10281 252
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -2339,8 +1822,6 @@ Encoding: 10282 10282 253
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -2348,8 +1829,6 @@ Encoding: 10283 10283 254
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -2357,8 +1836,6 @@ Encoding: 10284 10284 255
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -2366,8 +1843,6 @@ Encoding: 10285 10285 256
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -2375,8 +1850,6 @@ Encoding: 10286 10286 257
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -2384,8 +1857,6 @@ Encoding: 10287 10287 258
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -2393,8 +1864,6 @@ Encoding: 10288 10288 259
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -2402,8 +1871,6 @@ Encoding: 10289 10289 260
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -2411,8 +1878,6 @@ Encoding: 10290 10290 261
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -2420,8 +1885,6 @@ Encoding: 10291 10291 262
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -2429,8 +1892,6 @@ Encoding: 10292 10292 263
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -2438,8 +1899,6 @@ Encoding: 10293 10293 264
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -2447,8 +1906,6 @@ Encoding: 10294 10294 265
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -2456,8 +1913,6 @@ Encoding: 10295 10295 266
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -2465,8 +1920,6 @@ Encoding: 10296 10296 267
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -2474,8 +1927,6 @@ Encoding: 10297 10297 268
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -2483,8 +1934,6 @@ Encoding: 10298 10298 269
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -2492,8 +1941,6 @@ Encoding: 10299 10299 270
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -2501,8 +1948,6 @@ Encoding: 10300 10300 271
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -2510,8 +1955,6 @@ Encoding: 10301 10301 272
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -2519,8 +1962,6 @@ Encoding: 10302 10302 273
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -2528,8 +1969,6 @@ Encoding: 10303 10303 274
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -2537,8 +1976,6 @@ Encoding: 10304 10304 275
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -2546,8 +1983,6 @@ Encoding: 10305 10305 276
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -2555,8 +1990,6 @@ Encoding: 10306 10306 277
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -2564,8 +1997,6 @@ Encoding: 10307 10307 278
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -2573,8 +2004,6 @@ Encoding: 10308 10308 279
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -2582,8 +2011,6 @@ Encoding: 10309 10309 280
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -2591,8 +2018,6 @@ Encoding: 10310 10310 281
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -2600,8 +2025,6 @@ Encoding: 10311 10311 282
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -2609,8 +2032,6 @@ Encoding: 10312 10312 283
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -2618,8 +2039,6 @@ Encoding: 10313 10313 284
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -2627,8 +2046,6 @@ Encoding: 10314 10314 285
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -2636,8 +2053,6 @@ Encoding: 10315 10315 286
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -2645,8 +2060,6 @@ Encoding: 10316 10316 287
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -2654,8 +2067,6 @@ Encoding: 10317 10317 288
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -2663,8 +2074,6 @@ Encoding: 10318 10318 289
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -2672,8 +2081,6 @@ Encoding: 10319 10319 290
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -2681,8 +2088,6 @@ Encoding: 10320 10320 291
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -2690,8 +2095,6 @@ Encoding: 10321 10321 292
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -2699,8 +2102,6 @@ Encoding: 10322 10322 293
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -2708,8 +2109,6 @@ Encoding: 10323 10323 294
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -2717,8 +2116,6 @@ Encoding: 10324 10324 295
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -2726,8 +2123,6 @@ Encoding: 10325 10325 296
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -2735,8 +2130,6 @@ Encoding: 10326 10326 297
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -2744,8 +2137,6 @@ Encoding: 10327 10327 298
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -2753,8 +2144,6 @@ Encoding: 10328 10328 299
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -2762,8 +2151,6 @@ Encoding: 10329 10329 300
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -2771,8 +2158,6 @@ Encoding: 10330 10330 301
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -2780,8 +2165,6 @@ Encoding: 10331 10331 302
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -2789,8 +2172,6 @@ Encoding: 10332 10332 303
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -2798,8 +2179,6 @@ Encoding: 10333 10333 304
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -2807,8 +2186,6 @@ Encoding: 10334 10334 305
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -2816,8 +2193,6 @@ Encoding: 10335 10335 306
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -2825,8 +2200,6 @@ Encoding: 10336 10336 307
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -2834,8 +2207,6 @@ Encoding: 10337 10337 308
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -2843,8 +2214,6 @@ Encoding: 10338 10338 309
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -2852,8 +2221,6 @@ Encoding: 10339 10339 310
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -2861,8 +2228,6 @@ Encoding: 10340 10340 311
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -2870,8 +2235,6 @@ Encoding: 10341 10341 312
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -2879,8 +2242,6 @@ Encoding: 10342 10342 313
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -2888,8 +2249,6 @@ Encoding: 10343 10343 314
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -2897,8 +2256,6 @@ Encoding: 10344 10344 315
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -2906,8 +2263,6 @@ Encoding: 10345 10345 316
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -2915,8 +2270,6 @@ Encoding: 10346 10346 317
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -2924,8 +2277,6 @@ Encoding: 10347 10347 318
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -2933,8 +2284,6 @@ Encoding: 10348 10348 319
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -2942,8 +2291,6 @@ Encoding: 10349 10349 320
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -2951,8 +2298,6 @@ Encoding: 10350 10350 321
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -2960,8 +2305,6 @@ Encoding: 10351 10351 322
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -2969,8 +2312,6 @@ Encoding: 10352 10352 323
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -2978,8 +2319,6 @@ Encoding: 10353 10353 324
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -2987,8 +2326,6 @@ Encoding: 10354 10354 325
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -2996,8 +2333,6 @@ Encoding: 10355 10355 326
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -3005,8 +2340,6 @@ Encoding: 10356 10356 327
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -3014,8 +2347,6 @@ Encoding: 10357 10357 328
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -3023,8 +2354,6 @@ Encoding: 10358 10358 329
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -3032,8 +2361,6 @@ Encoding: 10359 10359 330
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -3041,8 +2368,6 @@ Encoding: 10360 10360 331
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -3050,8 +2375,6 @@ Encoding: 10361 10361 332
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -3059,8 +2382,6 @@ Encoding: 10362 10362 333
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -3068,8 +2389,6 @@ Encoding: 10363 10363 334
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -3077,8 +2396,6 @@ Encoding: 10364 10364 335
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -3086,8 +2403,6 @@ Encoding: 10365 10365 336
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -3095,8 +2410,6 @@ Encoding: 10366 10366 337
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -3104,8 +2417,6 @@ Encoding: 10367 10367 338
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -3113,8 +2424,6 @@ Encoding: 10368 10368 339
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -3122,8 +2431,6 @@ Encoding: 10369 10369 340
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -3131,8 +2438,6 @@ Encoding: 10370 10370 341
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -3140,8 +2445,6 @@ Encoding: 10371 10371 342
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -3149,8 +2452,6 @@ Encoding: 10372 10372 343
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -3158,8 +2459,6 @@ Encoding: 10373 10373 344
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -3167,8 +2466,6 @@ Encoding: 10374 10374 345
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -3176,8 +2473,6 @@ Encoding: 10375 10375 346
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -3185,8 +2480,6 @@ Encoding: 10376 10376 347
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -3194,8 +2487,6 @@ Encoding: 10377 10377 348
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -3203,8 +2494,6 @@ Encoding: 10378 10378 349
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -3212,8 +2501,6 @@ Encoding: 10379 10379 350
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -3221,8 +2508,6 @@ Encoding: 10380 10380 351
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -3230,8 +2515,6 @@ Encoding: 10381 10381 352
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -3239,8 +2522,6 @@ Encoding: 10382 10382 353
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -3248,8 +2529,6 @@ Encoding: 10383 10383 354
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -3257,8 +2536,6 @@ Encoding: 10384 10384 355
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -3266,8 +2543,6 @@ Encoding: 10385 10385 356
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -3275,8 +2550,6 @@ Encoding: 10386 10386 357
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -3284,8 +2557,6 @@ Encoding: 10387 10387 358
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -3293,8 +2564,6 @@ Encoding: 10388 10388 359
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -3302,8 +2571,6 @@ Encoding: 10389 10389 360
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -3311,8 +2578,6 @@ Encoding: 10390 10390 361
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -3320,8 +2585,6 @@ Encoding: 10391 10391 362
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -3329,8 +2592,6 @@ Encoding: 10392 10392 363
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -3338,8 +2599,6 @@ Encoding: 10393 10393 364
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -3347,8 +2606,6 @@ Encoding: 10394 10394 365
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -3356,8 +2613,6 @@ Encoding: 10395 10395 366
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -3365,8 +2620,6 @@ Encoding: 10396 10396 367
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -3374,8 +2627,6 @@ Encoding: 10397 10397 368
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -3383,8 +2634,6 @@ Encoding: 10398 10398 369
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -3392,8 +2641,6 @@ Encoding: 10399 10399 370
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -3401,8 +2648,6 @@ Encoding: 10400 10400 371
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -3410,8 +2655,6 @@ Encoding: 10401 10401 372
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -3419,8 +2662,6 @@ Encoding: 10402 10402 373
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -3428,8 +2669,6 @@ Encoding: 10403 10403 374
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -3437,8 +2676,6 @@ Encoding: 10404 10404 375
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -3446,8 +2683,6 @@ Encoding: 10405 10405 376
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -3455,8 +2690,6 @@ Encoding: 10406 10406 377
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -3464,8 +2697,6 @@ Encoding: 10407 10407 378
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -3473,8 +2704,6 @@ Encoding: 10408 10408 379
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -3482,8 +2711,6 @@ Encoding: 10409 10409 380
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -3491,8 +2718,6 @@ Encoding: 10410 10410 381
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -3500,8 +2725,6 @@ Encoding: 10411 10411 382
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -3509,8 +2732,6 @@ Encoding: 10412 10412 383
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -3518,8 +2739,6 @@ Encoding: 10413 10413 384
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -3527,8 +2746,6 @@ Encoding: 10414 10414 385
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -3536,8 +2753,6 @@ Encoding: 10415 10415 386
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -3545,8 +2760,6 @@ Encoding: 10416 10416 387
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -3554,8 +2767,6 @@ Encoding: 10417 10417 388
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -3563,8 +2774,6 @@ Encoding: 10418 10418 389
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -3572,8 +2781,6 @@ Encoding: 10419 10419 390
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -3581,8 +2788,6 @@ Encoding: 10420 10420 391
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -3590,8 +2795,6 @@ Encoding: 10421 10421 392
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -3599,8 +2802,6 @@ Encoding: 10422 10422 393
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -3608,8 +2809,6 @@ Encoding: 10423 10423 394
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -3617,8 +2816,6 @@ Encoding: 10424 10424 395
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -3626,8 +2823,6 @@ Encoding: 10425 10425 396
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -3635,8 +2830,6 @@ Encoding: 10426 10426 397
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -3644,8 +2837,6 @@ Encoding: 10427 10427 398
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -3653,8 +2844,6 @@ Encoding: 10428 10428 399
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -3662,8 +2851,6 @@ Encoding: 10429 10429 400
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -3671,8 +2858,6 @@ Encoding: 10430 10430 401
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -3680,8 +2865,6 @@ Encoding: 10431 10431 402
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -3689,8 +2872,6 @@ Encoding: 10432 10432 403
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -3698,8 +2879,6 @@ Encoding: 10433 10433 404
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -3707,8 +2886,6 @@ Encoding: 10434 10434 405
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -3716,8 +2893,6 @@ Encoding: 10435 10435 406
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -3725,8 +2900,6 @@ Encoding: 10436 10436 407
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -3734,8 +2907,6 @@ Encoding: 10437 10437 408
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -3743,8 +2914,6 @@ Encoding: 10438 10438 409
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -3752,8 +2921,6 @@ Encoding: 10439 10439 410
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -3761,8 +2928,6 @@ Encoding: 10440 10440 411
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -3770,8 +2935,6 @@ Encoding: 10441 10441 412
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -3779,8 +2942,6 @@ Encoding: 10442 10442 413
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -3788,8 +2949,6 @@ Encoding: 10443 10443 414
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -3797,8 +2956,6 @@ Encoding: 10444 10444 415
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -3806,8 +2963,6 @@ Encoding: 10445 10445 416
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -3815,8 +2970,6 @@ Encoding: 10446 10446 417
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -3824,8 +2977,6 @@ Encoding: 10447 10447 418
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -3833,8 +2984,6 @@ Encoding: 10448 10448 419
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -3842,8 +2991,6 @@ Encoding: 10449 10449 420
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -3851,8 +2998,6 @@ Encoding: 10450 10450 421
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -3860,8 +3005,6 @@ Encoding: 10451 10451 422
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -3869,8 +3012,6 @@ Encoding: 10452 10452 423
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -3878,8 +3019,6 @@ Encoding: 10453 10453 424
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -3887,8 +3026,6 @@ Encoding: 10454 10454 425
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -3896,8 +3033,6 @@ Encoding: 10455 10455 426
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -3905,8 +3040,6 @@ Encoding: 10456 10456 427
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -3914,8 +3047,6 @@ Encoding: 10457 10457 428
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -3923,8 +3054,6 @@ Encoding: 10458 10458 429
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -3932,8 +3061,6 @@ Encoding: 10459 10459 430
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -3941,8 +3068,6 @@ Encoding: 10460 10460 431
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -3950,8 +3075,6 @@ Encoding: 10461 10461 432
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -3959,8 +3082,6 @@ Encoding: 10462 10462 433
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -3968,8 +3089,6 @@ Encoding: 10463 10463 434
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -3977,8 +3096,6 @@ Encoding: 10464 10464 435
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -3986,8 +3103,6 @@ Encoding: 10465 10465 436
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -3995,8 +3110,6 @@ Encoding: 10466 10466 437
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -4004,8 +3117,6 @@ Encoding: 10467 10467 438
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -4013,8 +3124,6 @@ Encoding: 10468 10468 439
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -4022,8 +3131,6 @@ Encoding: 10469 10469 440
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -4031,8 +3138,6 @@ Encoding: 10470 10470 441
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -4040,8 +3145,6 @@ Encoding: 10471 10471 442
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -4049,8 +3152,6 @@ Encoding: 10472 10472 443
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -4058,8 +3159,6 @@ Encoding: 10473 10473 444
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -4067,8 +3166,6 @@ Encoding: 10474 10474 445
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -4076,8 +3173,6 @@ Encoding: 10475 10475 446
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -4085,8 +3180,6 @@ Encoding: 10476 10476 447
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -4094,8 +3187,6 @@ Encoding: 10477 10477 448
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -4103,8 +3194,6 @@ Encoding: 10478 10478 449
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -4112,8 +3201,6 @@ Encoding: 10479 10479 450
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -4121,8 +3208,6 @@ Encoding: 10480 10480 451
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -4130,8 +3215,6 @@ Encoding: 10481 10481 452
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -4139,8 +3222,6 @@ Encoding: 10482 10482 453
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -4148,8 +3229,6 @@ Encoding: 10483 10483 454
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -4157,8 +3236,6 @@ Encoding: 10484 10484 455
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -4166,8 +3243,6 @@ Encoding: 10485 10485 456
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -4175,8 +3250,6 @@ Encoding: 10486 10486 457
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -4184,8 +3257,6 @@ Encoding: 10487 10487 458
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -4193,8 +3264,6 @@ Encoding: 10488 10488 459
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -4202,8 +3271,6 @@ Encoding: 10489 10489 460
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -4211,8 +3278,6 @@ Encoding: 10490 10490 461
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -4220,8 +3285,6 @@ Encoding: 10491 10491 462
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -4229,8 +3292,6 @@ Encoding: 10492 10492 463
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -4238,8 +3299,6 @@ Encoding: 10493 10493 464
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -4247,8 +3306,6 @@ Encoding: 10494 10494 465
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: BRAILLE
@@ -4256,8 +3313,6 @@ Encoding: 10495 10495 466
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 2097153
 EndChar
 
 StartChar: char57506
@@ -4265,8 +3320,6 @@ Encoding: 57506 57506 467
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 1
 EndChar
 
 StartChar: char57520
@@ -4274,8 +3327,6 @@ Encoding: 57520 57520 468
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 1
 EndChar
 
 StartChar: char57521
@@ -4283,8 +3334,6 @@ Encoding: 57521 57521 469
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 1
 EndChar
 
 StartChar: char57522
@@ -4292,8 +3341,6 @@ Encoding: 57522 57522 470
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 1
 EndChar
 
 StartChar: char57523
@@ -4301,29 +3348,28 @@ Encoding: 57523 57523 471
 Width: 625
 Flags: W
 LayerCount: 2
-Fore
-Validated: 1
 EndChar
 EndChars
-BitmapFont: 8 473 7 1 1 misc
-BDFStartProperties: 37
-COMMENT 1 "/*"
-COMMENT 1 "* Spleentt 5x8 1.9.2"
-COMMENT 1 "* Copyright (c) 2018-2022, Frederic Cambus"
-COMMENT 1 "* Copyright (c) 2023, Tommy Thorn"
-COMMENT 1 "* https://www.cambus.net/"
-COMMENT 1 "*"
-COMMENT 1 "* Created:      2018-08-08"
-COMMENT 1 "* Last Updated: 2023-02-11"
-COMMENT 1 "*"
-COMMENT 1 "* Spleentt is released under the BSD 2-Clause license."
-COMMENT 1 "* See LICENSE file for details."
-COMMENT 1 "*"
-COMMENT 1 "* SPDX-License-Identifier: BSD-2-Clause"
-COMMENT 1 "*/"
+BitmapFont: 8 472 7 1 1 misc
+BDFStartProperties: 38
 FONT 1 "-misc-Spleentt-medium-r-normal--8-80-72-72-C-50-ISO10646-1"
 SIZE 1 "8 72 72"
 FONTBOUNDINGBOX 1 "5 8 0 -1"
+COMMENT 0 "Generated by fontforge, http://fontforge.sourceforge.net"
+COMMENT 0 "/*"
+COMMENT 0 "* Spleentt 5x8 1.9.2"
+COMMENT 0 "* Copyright (c) 2018-2022, Frederic Cambus"
+COMMENT 0 "* Copyright (c) 2023, Tommy Thorn"
+COMMENT 0 "* https://www.cambus.net/"
+COMMENT 0 "*"
+COMMENT 0 "* Created:      2018-08-08"
+COMMENT 0 "* Last Updated: 2023-02-11"
+COMMENT 0 "*"
+COMMENT 0 "* Spleentt is released under the BSD 2-Clause license."
+COMMENT 0 "* See LICENSE file for details."
+COMMENT 0 "*"
+COMMENT 0 "* SPDX-License-Identifier: BSD-2-Clause"
+COMMENT 0 "*/"
 FAMILY_NAME 16 "Spleentt"
 WEIGHT_NAME 16 "Medium"
 FONT_VERSION 16 "1.9.2"
@@ -4352,8 +3398,8 @@ BDFChar: 1 33 5 2 2 0 6
 J:N0#J,k*"
 BDFChar: 2 34 5 1 3 5 6
 TV)8b
-BDFChar: 3 35 5 0 3 0 4
-;".<NTE"rl
+BDFChar: 3 35 5 0 3 0 5
+@.7Q3n6c4r
 BDFChar: 4 36 5 0 3 0 6
 +E2j=&E#eR
 BDFChar: 5 37 5 0 3 0 5
@@ -4462,8 +3508,8 @@ BDFChar: 56 88 5 0 3 0 5
 OH<jXOH9GB
 BDFChar: 57 89 5 1 3 0 5
 TV.rC5X5;L
-BDFChar: 58 90 5 0 2 0 5
-i#k9MJD^D-
+BDFChar: 58 90 5 0 3 0 5
+n.6^-JFEO=
 BDFChar: 59 91 5 1 2 0 6
 ^jprcJ:PE8
 BDFChar: 60 92 5 1 3 0 5
@@ -4498,8 +3544,8 @@ BDFChar: 74 106 5 0 2 -1 6
 +95dl+<[=B
 BDFChar: 75 107 5 0 3 0 6
 J:N`S^n?bh
-BDFChar: 76 108 5 1 3 0 6
-J:N0#J=o.-
+BDFChar: 76 108 5 0 2 0 6
+^d(.M5X=6-
 BDFChar: 77 109 5 0 3 0 4
 ORVb$O8o7\
 BDFChar: 78 110 5 0 3 0 4
@@ -4526,8 +3572,8 @@ BDFChar: 88 120 5 0 3 0 4
 OC2IXO8o7\
 BDFChar: 89 121 5 0 3 -1 4
 OH>QC&E!Ng
-BDFChar: 90 122 5 0 3 0 4
-n.6^-n,NFg
+BDFChar: 90 122 5 0 2 0 4
+i#k:8huE`W
 BDFChar: 91 123 5 0 2 0 6
 +@&2B5X6Fl
 BDFChar: 92 124 5 2 2 0 6
