@@ -15,13 +15,13 @@ spacing is core to all the changes made here.
 
 While stretching glyphs might make them prettier in isolation, once
 placed next to other glyphs, the lost whitespace makes for more
-difficult reading.  For this reason, almost all horizontal space
-violations were eliminated (`+` still remains).
+difficult reading.  For this reason, all but one horizontal space
+violators were eliminated (`+` still remains).
 
-There are only a few vertical violations as we leave
-the descentor (the bottom-most row) free, except for glyphs `g`, `j`,
-`p`, and `q`.  Notably, none of the parenthesis, brackets, braces
-descend there.
+There are only a few vertical violations as we leave the descentor
+(the bottom-most row) free, except for glyphs `g`, `j`, `p`, `q`, and
+`Q`.  Notably, none of the parenthesis, brackets, braces descend
+there.
 
 At this point about half of the ASCII glyphs from the original Spleen font
 have been redesigned.
