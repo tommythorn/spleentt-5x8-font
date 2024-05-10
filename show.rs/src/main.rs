@@ -1,9 +1,8 @@
 use argh::FromArgs;
-use minifb::{Key, Scale, ScaleMode, Window, WindowOptions};
+use minifb::{Key, ScaleMode, Window, WindowOptions};
 use std::io::prelude::*;
 
-const WIDTH: usize = 320 + 8;
-const HEIGHT: usize = 200 + 8;
+const MARGIN: usize = 4;
 
 const BACKGROUND: u32 = 19 << 16 | 119 << 8 | 61;
 const FOREGROUND: u32 = 255 << 16 | 240 << 8 | 165;
@@ -31,19 +30,20 @@ struct Config {
 struct Context {
     window: Window,
     font: bdf::Font,
+    width: usize,
+    height: usize,
     cursor: (usize, usize),
-    fb: [u32; WIDTH * HEIGHT],
+    fb: Vec<u32>,
 }
 
 impl Context {
-    fn new(font: bdf::Font) -> anyhow::Result<Context> {
+    fn new(font: bdf::Font, width: usize, height: usize) -> anyhow::Result<Context> {
         let mut window = Window::new(
             "spleentt - hit Escape to exit",
-            WIDTH,
-            HEIGHT,
+            width,
+            height,
             WindowOptions {
                 resize: true,
-                scale: Scale::X2,
                 scale_mode: ScaleMode::AspectRatioStretch,
                 ..WindowOptions::default()
             },
@@ -55,9 +55,11 @@ impl Context {
 
         Ok(Context {
             window,
+            width,
+            height,
             font,
-            cursor: (0, 0),
-            fb: [BACKGROUND; WIDTH * HEIGHT],
+            cursor: (MARGIN, MARGIN),
+            fb: vec![BACKGROUND; width * height],
         })
     }
 
@@ -78,12 +80,12 @@ impl Context {
                         && (0..width).contains(&gx)
                         && glyph.get(gx as u32, gy as u32)
                     {
-                        self.fb[self.cursor.0 + self.cursor.1 * WIDTH + 4 + 4 * WIDTH] = FOREGROUND;
+                        self.fb[self.cursor.0 + self.cursor.1 * self.width] = FOREGROUND;
                     }
                     self.cursor.0 += 1;
                 }
             }
-            self.cursor.0 = 0;
+            self.cursor.0 = MARGIN;
             self.cursor.1 += 1;
         }
     }
@@ -91,11 +93,11 @@ impl Context {
     fn dump(&mut self, file: &str) -> Result<(), anyhow::Error> {
         let mut f = std::fs::File::create(file)?;
         writeln!(f, "P6")?;
-        writeln!(f, "{} {}", WIDTH * 2, HEIGHT * 2)?;
+        writeln!(f, "{} {}", self.width, self.height)?;
         writeln!(f, "255")?;
-        for y in 0..HEIGHT * 2 {
-            for x in 0..WIDTH * 2 {
-                let c = self.fb[(y / 2) * WIDTH + (x / 2)];
+        for y in 0..self.height {
+            for x in 0..self.width {
+                let c = self.fb[y * self.width + x];
                 // XXX I don't understand the color mess up here
                 if c == BACKGROUND {
                     f.write_all(&[0x37, 0x75, 0x43])?;
@@ -111,7 +113,7 @@ impl Context {
     fn present(&mut self) {
         while self.window.is_open() && !self.window.is_key_down(Key::Escape) {
             self.window
-                .update_with_buffer(&self.fb, WIDTH, HEIGHT)
+                .update_with_buffer(&self.fb, self.width, self.height)
                 .unwrap();
         }
     }
@@ -120,14 +122,8 @@ impl Context {
 fn main() -> anyhow::Result<()> {
     let cfg: Config = argh::from_env();
     let font = bdf::open(cfg.font).unwrap(); // XXX propagate error
-    let mut context = Context::new(font)?;
-
-    for arg in cfg.text {
-        context.renderline(&arg);
-    }
-
-    if cfg.default {
-        for arg in "Hello World!\n\
+    let lines = if cfg.default {
+        "Hello World!\n\
 		illegal1 = 0Oo\n\
 		ABCDEFGHIJKLMNOPQRSTUVWXYZ\n\
 		abcdefghijklmnopqrstuvwxyz\n\
@@ -152,9 +148,19 @@ fn main() -> anyhow::Result<()> {
 		({[<>]})\n\
 		{A} */ THE END."
             .lines()
-        {
-            context.renderline(arg);
-        }
+            .map(|r| r.to_string())
+            .collect()
+    } else {
+        cfg.text
+    };
+
+    let height = lines.len() * 8 + MARGIN * 2;
+    let width = lines.iter().map(|x| x.len()).max().unwrap_or(0) * 5 + MARGIN * 2;
+
+    let mut context = Context::new(font, width, height)?;
+
+    for line in lines {
+        context.renderline(&line);
     }
 
     context.present();
