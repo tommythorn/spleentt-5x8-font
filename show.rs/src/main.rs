@@ -53,13 +53,29 @@ impl Context {
         // Limit to max ~60 fps update rate
         window.limit_update_rate(Some(std::time::Duration::from_micros(16600)));
 
+        let mut fb = vec![BACKGROUND; width * height];
+
+        // let mask = 0x4821; // X11
+        let mask = 1; // Nice
+                      // let mask = 0xA5E5; // MacOS alt
+                      // let mask = 0xA5A5;  // MacOS
+        for y in 0..height {
+            let py = y % 4;
+            for x in 0..width {
+                let px = x % 4;
+                if mask >> (py * 4 + px) & 1 == 1 {
+                    fb[y * width + x] = 0;
+                }
+            }
+        }
+
         Ok(Context {
             window,
             width,
             height,
             font,
             cursor: (MARGIN, MARGIN),
-            fb: vec![BACKGROUND; width * height],
+            fb,
         })
     }
 
