@@ -15,8 +15,8 @@ spacing is core to all the changes made here.
 
 While stretching glyphs might make them prettier in isolation, once
 placed next to other glyphs, the lost whitespace makes for more
-difficult reading.  For this reason, all but one horizontal space
-violators were eliminated (`+` still remains).
+difficult reading.  For this reason, all but two horizontal space
+violators were eliminated (`#` and `+` remains).
 
 There are only a few vertical violations as we leave the descentor
 (the bottom-most row) free, except for glyphs `g`, `j`, `p`, `q`, and
