@@ -3,7 +3,7 @@ FontName: SpleenttMedium
 FullName: Spleentt Medium
 FamilyName: Spleentt
 Weight: Medium
-Copyright: Copyright (c) 2018-2022, Frederic Cambus, 2023 Tommy Thorn
+Copyright: Copyright (c) 2018-2022, Frederic Cambus, 2023-2024 Tommy Thorn
 UComments: "2024-4-21: Created with FontForge (http://fontforge.org)"
 Version: 001.000
 ItalicAngle: 0
@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1713744669
-ModificationTime: 1713744669
+ModificationTime: 1715926577
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -36,6 +36,7 @@ HheadAscent: 0
 HheadAOffset: 1
 HheadDescent: 0
 HheadDOffset: 1
+MarkAttachClasses: 1
 DEI: 91125
 Encoding: UnicodeBmp
 UnicodeInterp: none
@@ -45,6 +46,8 @@ AntiAlias: 1
 FitToEm: 0
 WinInfo: 16 16 8
 OnlyBitmaps: 1
+BeginPrivate: 0
+EndPrivate
 BeginChars: 65536 473
 
 StartChar: SPACE
@@ -3357,7 +3360,7 @@ Width: 1000
 LayerCount: 2
 EndChar
 EndChars
-BitmapFont: 8 473 7 1 1 misc
+BitmapFont: 8 474 7 1 1 misc
 BDFStartProperties: 38
 FONT 1 "-misc-Spleentt-medium-r-normal--8-80-72-72-C-50-ISO10646-1"
 SIZE 1 "8 72 72"
@@ -3394,7 +3397,7 @@ CHARSET_ENCODING 16 "1"
 MIN_SPACE 18 5
 FONT_DESCENT 18 1
 FONT_ASCENT 18 7
-COPYRIGHT 16 "Copyright (c) 2018-2022, Frederic Cambus, 2023 Tommy Thorn"
+COPYRIGHT 16 "Copyright (c) 2018-2022, Frederic Cambus, 2023-2024 Tommy Thorn"
 DEFAULT_CHAR 19 32
 _GBDFED_INFO 16 "Edited with Emacs 28"
 BDFEndProperties
@@ -3538,21 +3541,21 @@ BDFChar: 67 99 5 0 3 0 4
 BDFChar: 68 100 5 0 3 0 6
 &.ifBOH=D]
 BDFChar: 69 101 5 0 3 0 4
-@$'l.?iU0,
+@$'l.Du]k<
 BDFChar: 70 102 5 0 3 0 6
-+Ab>]5X7R7
+0L.n]5X7R7
 BDFChar: 71 103 5 0 3 -1 4
-E0-/h&E!Ng
+E0-0#&E!Ng
 BDFChar: 72 104 5 0 3 0 6
 J:QR>OH>P(
-BDFChar: 73 105 5 1 3 0 6
-5QJSb5X=6-
+BDFChar: 73 105 5 0 3 0 6
+5QJSb5X7"'
 BDFChar: 74 106 5 0 2 -1 6
-+95dl+<[=B
++95dl+<VfB
 BDFChar: 75 107 5 0 3 0 6
 J:N`S^n?bh
 BDFChar: 76 108 5 1 3 0 6
-^d(.M5X=6-
+^d(.M5X8]W
 BDFChar: 77 109 5 0 3 0 4
 ORVb$O8o7\
 BDFChar: 78 110 5 0 3 0 4
@@ -3564,11 +3567,11 @@ i/j&YJ:IV"
 BDFChar: 81 113 5 0 3 -1 4
 E0-0#&.egA
 BDFChar: 82 114 5 0 3 0 4
-Yg@oNJ,fQL
+YeYd>J,fQL
 BDFChar: 83 115 5 0 3 0 4
 E.D=-huE`W
 BDFChar: 84 116 5 0 3 0 6
-5X=6m5YrR'
+5X=6m5X7"'
 BDFChar: 85 117 5 0 3 0 4
 OH>Qc?iU0,
 BDFChar: 86 118 5 0 3 0 4

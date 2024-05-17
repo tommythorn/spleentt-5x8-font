@@ -1,8 +1,9 @@
 use argh::FromArgs;
-use minifb::{Key, ScaleMode, Window, WindowOptions};
+use minifb::{Key, Scale, ScaleMode, Window, WindowOptions};
 use std::io::prelude::*;
 
 const MARGIN: usize = 4;
+const SCALE: usize = 4;
 
 const BACKGROUND: u32 = 19 << 16 | 119 << 8 | 61;
 const FOREGROUND: u32 = 255 << 16 | 240 << 8 | 165;
@@ -32,6 +33,7 @@ struct Context {
     font: bdf::Font,
     width: usize,
     height: usize,
+    scale: usize,
     cursor: (usize, usize),
     fb: Vec<u32>,
 }
@@ -44,6 +46,7 @@ impl Context {
             height,
             WindowOptions {
                 resize: true,
+		scale: Scale::X2,
                 scale_mode: ScaleMode::AspectRatioStretch,
                 ..WindowOptions::default()
             },
@@ -59,6 +62,7 @@ impl Context {
             height,
             font,
             cursor: (MARGIN, MARGIN),
+	    scale: SCALE,
             fb: vec![BACKGROUND; width * height],
         })
     }
@@ -93,11 +97,11 @@ impl Context {
     fn dump(&mut self, file: &str) -> Result<(), anyhow::Error> {
         let mut f = std::fs::File::create(file)?;
         writeln!(f, "P6")?;
-        writeln!(f, "{} {}", self.width, self.height)?;
+        writeln!(f, "{} {}", self.width * self.scale, self.height * self.scale)?;
         writeln!(f, "255")?;
-        for y in 0..self.height {
-            for x in 0..self.width {
-                let c = self.fb[y * self.width + x];
+        for y in 0..self.height * self.scale {
+            for x in 0..self.width * self.scale {
+                let c = self.fb[(y / self.scale) * self.width + (x / self.scale)];
                 // XXX I don't understand the color mess up here
                 if c == BACKGROUND {
                     f.write_all(&[0x37, 0x75, 0x43])?;
