@@ -8,5 +8,5 @@ edition = "2021"
 [dependencies]
 anyhow = "1.0.83"
 argh = "0.1.12"
-bdf = "0.6.0"
+bdf = { git = "https://github.com/meh/rust-bdf" }
 minifb = "0.25.0"
