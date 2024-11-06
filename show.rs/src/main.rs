@@ -15,13 +15,17 @@ struct Config {
     #[argh(option, default = "String::from(\"../SpleenttMedium-8.bdf\")")]
     font: String,
 
-    /// if given, dump a screenshot here in PPM format
-    #[argh(option)]
-    screendump: Option<String>,
-
     /// show the default sample
     #[argh(switch, short = 'd')]
     default: bool,
+
+    /// if given, dump a screenshot here in PPM format
+    #[argh(option)]
+    ppmdump: Option<String>,
+
+    /// show as ascii chars
+    #[argh(switch, short = 'a')]
+    asciidump: bool,
 
     /// arguments
     #[argh(positional, greedy)]
@@ -94,7 +98,7 @@ impl Context {
         }
     }
 
-    fn dump(&mut self, file: &str) -> Result<(), anyhow::Error> {
+    fn dump_ppm(&mut self, file: &str) -> Result<(), anyhow::Error> {
         let mut f = std::fs::File::create(file)?;
         writeln!(f, "P6")?;
         writeln!(f, "{} {}", self.width * self.scale, self.height * self.scale)?;
@@ -112,6 +116,27 @@ impl Context {
         }
 
         Ok(())
+    }
+
+    fn dump_ascii(&mut self) {
+        for y in MARGIN..self.height {
+            // Let's suppress trailing whitespace
+            let mut last = MARGIN;
+            for x in MARGIN..self.width {
+                if self.fb[y * self.width + x] != BACKGROUND {
+                    last = x;
+                }
+            }
+
+            for x in MARGIN..=last {
+                if self.fb[y * self.width + x] == BACKGROUND {
+                    print!("  ");
+                } else {
+                    print!("##");
+                }
+            }
+            println!();
+        }
     }
 
     fn present(&mut self) {
@@ -169,8 +194,12 @@ fn main() -> anyhow::Result<()> {
 
     context.present();
 
-    if let Some(file) = cfg.screendump {
-        context.dump(&file)?;
+    if let Some(file) = cfg.ppmdump {
+        context.dump_ppm(&file)?;
+    }
+
+    if cfg.asciidump {
+        context.dump_ascii();
     }
 
     Ok(())
