@@ -119,8 +119,8 @@ fn main() -> anyhow::Result<()> {
     let s: &[u8] = unsafe { slice::from_raw_parts(p, mem::size_of::<PsfFontHeader>()) };
 
     std::io::stdout().write_all(s)?;
-    for c in 0..256 {
-        std::io::stdout().write_all(&font[c])?;
+    for c in &font {
+        std::io::stdout().write_all(c)?;
     }
 
     Ok(())

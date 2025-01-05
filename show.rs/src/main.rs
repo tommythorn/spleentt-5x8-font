@@ -3,10 +3,8 @@ use minifb::{Key, Scale, ScaleMode, Window, WindowOptions};
 use std::io::prelude::*;
 
 const MARGIN: usize = 4;
-const SCALE: usize = 4;
-
-const BACKGROUND: u32 = 19 << 16 | 119 << 8 | 61;
-const FOREGROUND: u32 = 255 << 16 | 240 << 8 | 165;
+const BACKGROUND: u32 = 0x333333;
+const FOREGROUND: u32 = 0xF1F11F;
 
 #[derive(FromArgs)]
 /// Demo the font
@@ -27,6 +25,18 @@ struct Config {
     #[argh(switch, short = 'a')]
     asciidump: bool,
 
+    /// scale pixels by 2X
+    #[argh(switch, short = 's')]
+    scale: bool,
+
+    /// if given, sets the background color in hex (without # or 0x)
+    #[argh(option)]
+    background: Option<String>,
+
+    /// if given, sets the foreground color in hex (without # or 0x)
+    #[argh(option)]
+    foreground: Option<String>,
+
     /// arguments
     #[argh(positional, greedy)]
     text: Vec<String>,
@@ -39,18 +49,19 @@ struct Context {
     height: usize,
     scale: usize,
     cursor: (usize, usize),
+    foreground: u32,
     fb: Vec<u32>,
 }
 
 impl Context {
-    fn new(font: bdf::Font, width: usize, height: usize) -> anyhow::Result<Context> {
+    fn new(font: bdf::Font, width: usize, height: usize, scalex2: bool) -> anyhow::Result<Context> {
         let mut window = Window::new(
             "spleentt - hit Escape to exit",
             width,
             height,
             WindowOptions {
                 resize: true,
-		scale: Scale::X2,
+                scale: if scalex2 { Scale::X2 } else { Scale::X1 },
                 scale_mode: ScaleMode::AspectRatioStretch,
                 ..WindowOptions::default()
             },
@@ -66,9 +77,18 @@ impl Context {
             height,
             font,
             cursor: (MARGIN, MARGIN),
-	    scale: SCALE,
+            scale: if scalex2 { 4 } else { 2 },
+            foreground: FOREGROUND,
             fb: vec![BACKGROUND; width * height],
         })
+    }
+
+    fn set_foreground(&mut self, foreground: u32) {
+        self.foreground = foreground;
+    }
+
+    fn set_background(&mut self, background: u32) {
+        self.fb = vec![background; self.width * self.height];
     }
 
     fn renderline(&mut self, s: &str) {
@@ -81,14 +101,14 @@ impl Context {
                 let (height, width) = (bb.height as i32, bb.width as i32); // Sigh
 
                 for x in 0..5 {
-                    let gy = y + bb.y - (7 - height);
+                    let gy = y + bb.y - (8 - height);
                     let gx = x - bb.x;
 
                     if (0..height).contains(&gy)
                         && (0..width).contains(&gx)
                         && glyph.get(gx as u32, gy as u32)
                     {
-                        self.fb[self.cursor.0 + self.cursor.1 * self.width] = FOREGROUND;
+                        self.fb[self.cursor.0 + self.cursor.1 * self.width] = self.foreground;
                     }
                     self.cursor.0 += 1;
                 }
@@ -101,17 +121,17 @@ impl Context {
     fn dump_ppm(&mut self, file: &str) -> Result<(), anyhow::Error> {
         let mut f = std::fs::File::create(file)?;
         writeln!(f, "P6")?;
-        writeln!(f, "{} {}", self.width * self.scale, self.height * self.scale)?;
+        writeln!(
+            f,
+            "{} {}",
+            self.width * self.scale,
+            self.height * self.scale
+        )?;
         writeln!(f, "255")?;
         for y in 0..self.height * self.scale {
             for x in 0..self.width * self.scale {
                 let c = self.fb[(y / self.scale) * self.width + (x / self.scale)];
-                // XXX I don't understand the color mess up here
-                if c == BACKGROUND {
-                    f.write_all(&[0x37, 0x75, 0x43])?;
-                } else {
-                    f.write_all(&[0xfc, 0xf0, 0xae])?;
-                }
+                f.write_all(&[(c >> 16) as u8, (c >> 8) as u8, c as u8])?;
             }
         }
 
@@ -152,30 +172,19 @@ fn main() -> anyhow::Result<()> {
     let cfg: Config = argh::from_env();
     let font = bdf::open(cfg.font).unwrap(); // XXX propagate error
     let lines = if cfg.default {
-        "Hello World!\n\
-		illegal1 = 0Oo\n\
-		ABCDEFGHIJKLMNOPQRSTUVWXYZ\n\
-		abcdefghijklmnopqrstuvwxyz\n\
-		0123456789 () {} [] <> @ $\n\
-		~ # % ^ & * - = + / ? : ; _ |\n\
-		the quick brown fox jumps over the lazy dog.\n\
-		\n\
-		 !\"#$%&'()*+,-./\n\
-		0123456789:;<=>?\n\
-		@ABCDEFGHIJKLMNO\n\
-		PQRSTUVWXYZ[\\]^_\n\
-		`abcdefghijklmno\n\
-		pqrstuvwxyz{|}~\n\
-		\n\
-		#define F() (a && b || !c == y^z ? 42 : 12)\n\
-		$a % ($b * $c) ok? YMCA a[42]-A[43] {~c; y}\n\
-		<A>\n\
-		(A)\n\
-		[A]\n\
-		oO08 iIlL1\n\
-		g9qCGQ ~-+=>\n\
-		({[<>]})\n\
-		{A} */ THE END."
+        " !\"#$%&'()*+,-./0123456789:;<=>?\n\
+         @ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_\n\
+	 `abcdefghijklmnopqrstuvwxyz{|}~\n\
+         \n\
+	 illegal1 = 0Oo    oO08 iIlL1\n\
+	 The quick brown fox jumps over the lazy dog.\n\
+	 \n\
+	 #define F() (a && b || !c == y^z ? 42 : 12)\n\
+	 $a % ($b * $c) ok? YMCA a[42]-A[43] {~c; y}\n\
+	 <A> (A) [A] {A}\n\
+	 g9qCGQ ~-+=>\n\
+	 ({[<>]})\n\
+	 {A} */"
             .lines()
             .map(|r| r.to_string())
             .collect()
@@ -186,7 +195,15 @@ fn main() -> anyhow::Result<()> {
     let height = lines.len() * 8 + MARGIN * 2;
     let width = lines.iter().map(|x| x.len()).max().unwrap_or(0) * 5 + MARGIN * 2;
 
-    let mut context = Context::new(font, width, height)?;
+    let mut context = Context::new(font, width, height, cfg.scale)?;
+
+    if let Some(fg_str) = cfg.background {
+        context.set_background(u32::from_str_radix(&fg_str, 16)?);
+    }
+
+    if let Some(fg_str) = cfg.foreground {
+        context.set_foreground(u32::from_str_radix(&fg_str, 16)?);
+    }
 
     for line in lines {
         context.renderline(&line);
