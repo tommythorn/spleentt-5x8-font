@@ -30,6 +30,35 @@ have been redesigned.
 
 ![spleen](images/spleen.png  "All ASCII characters in the original spleen font")
 
+# Installation under X11
+
+In brief:
+
+```
+mkdir -p ~/.fonts
+cp SpleenttMedium-8.bdf ~/.fonts/spleentt.bdf
+(cd ~/.fonts; mkfontdir)
+xset +fp ~/.fonts
+fc-cache
+```
+
+# Installation for the Linux Framebuffer Console
+
+(XXX This is partially based on memory).
+
+I couldn't find a guide, but this seemed to work:
+```
+sudo cp SpleenttMedium.psf /usr/share/consolefonts
+sudo sed -i 's,Lat15-Terminus12x6.psf.gz,SpleenttMedium.psf,g' /etc/console-setup/cached_setup_font.sh
+```
+
+# Installation under macOS
+
+```
+open SpleenttMedium.dfont
+```
+and follow the directions.
+
 # Acknowledgments
 
 This wouldn't have been possible without the amazing work of Romeo Van

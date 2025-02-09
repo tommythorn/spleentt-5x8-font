@@ -36,6 +36,7 @@ HheadAscent: 0
 HheadAOffset: 1
 HheadDescent: 0
 HheadDOffset: 1
+OS2Vendor: 'PfEd'
 MarkAttachClasses: 1
 DEI: 91125
 Encoding: UnicodeBmp
@@ -3573,7 +3574,7 @@ E.D=-huE`W
 BDFChar: 84 116 5 0 3 0 6
 5X=6m5X7"'
 BDFChar: 85 117 5 0 3 0 4
-OH>Qc?iU0,
+OH>QcDu]k<
 BDFChar: 86 118 5 0 3 0 4
 OH>Q3?iU0,
 BDFChar: 87 119 5 0 3 0 4
