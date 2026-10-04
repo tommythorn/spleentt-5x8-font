@@ -44,12 +44,10 @@ fc-cache
 
 # Installation for the Linux Framebuffer Console
 
-(XXX This is partially based on memory).
+(This is only tested on Ubuntu, but should work similarily elsewhere)
 
-I couldn't find a guide, but this seemed to work:
 ```
-sudo cp SpleenttMedium.psf /usr/share/consolefonts
-sudo sed -i 's,Lat15-Terminus12x6.psf.gz,SpleenttMedium.psf,g' /etc/console-setup/cached_setup_font.sh
+sudo ./install-console-font.sh
 ```
 
 # Installation under macOS
