@@ -33,7 +33,7 @@ fn main() {
                 bm_index = 8 - h - yd - 1;
 
                 assert!(-1 <= bm_index && bm_index < 8, "BBX {v:?} -> offset {bm_index}");
-                println!("BBX 5 8 0 0");
+                println!("BBX 5 8 0 -1");
             }
 
             Some("BITMAP") => {
